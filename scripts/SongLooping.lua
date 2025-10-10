@@ -1,5 +1,6 @@
 -- Place in ServerScriptService or Workspace.
 -- Ensure you have a SoundPart, replace workspace:WaitForChild("SoundPart") with your actual path to the part if you have an alternative path.
+-- Edit distance the player can hear the audio with RollOffMaxDistance.
 
 local assetid = "rbxassetid://" -- Asset ID prefix
 
