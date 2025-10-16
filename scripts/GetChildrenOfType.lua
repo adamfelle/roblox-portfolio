@@ -1,7 +1,7 @@
 -- Adam Felle
 -- ModuleScript named "GetChildrenOfType" in ReplicatedStorage
--- Gets all children of a certain instance type from am object
--- Uses GetDescendants but you can change it to GetChildren if needed
+-- Gets all children of a certain instance type from am object.
+-- Uses GetDescendants but you can change it to GetChildren if needed.
 -- require(game.ReplicatedStorage.GetChildrenOfType).getChildrenOfType(path.to.object, "BasePart")
 
 local module = {}
