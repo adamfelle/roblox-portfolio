@@ -1,3 +1,4 @@
+-- Adam Felle
 -- ModuleScript in ReplicatedStorage named "CheckWord"
 -- Call by doing require(game.ReplicatedStorage.CheckWord).CheckWord("example")
 
