@@ -2,7 +2,7 @@
 -- ModuleScript in ReplicatedStorage named "CustomTweenService"
 -- Call by doing require(game.ReplicatedStorage.CustomTweenService).TweenService(object, {TraitExample=Vector3.new()}, Enum.EasingStyle.Example, 3, false)
 
-return function TweenService(obj, result, easingStyle : Enum.EasingStyle?, length : number?, reversing : boolean?)
+return function (obj, result, easingStyle : Enum.EasingStyle?, length : number?, reversing : boolean?)
   return game:GetService("TweenService"):Create(obj, TweenInfo.new(
     length, -- how long the tween takes to complete
     easingStyle, -- EasingStyle
