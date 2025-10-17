@@ -1,6 +1,5 @@
 -- Adam Felle
--- ModuleScript in ReplicatedStorage named "CustomTweenService"
--- Call by doing require(game.ReplicatedStorage.CustomTweenService).TweenService(object, {TraitExample=Vector3.new()}, Enum.EasingStyle.Example, 3, false)
+-- ModuleScript in ReplicatedStorage named "Pathfinding"
 
 function main(obj, destination, canJump : boolean?, canClimb : boolean?, agentRadius : number?, agentHeight : number?, waypointSpacing : number?, endConditionFunction : () -> any?)
 	local PathfindingService = game:GetService("PathfindingService")
